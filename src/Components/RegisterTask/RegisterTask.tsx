@@ -62,7 +62,6 @@ export default function RegisterTask() {
   };
 
   return (
-    <div className="project-container">
       <div className="project-sub-container">
         <form action="" onSubmit={handleSubmit}>
           <h1>Project Manager</h1>
@@ -135,6 +134,5 @@ export default function RegisterTask() {
           </div>
         </form>
       </div>
-    </div>
   );
 }

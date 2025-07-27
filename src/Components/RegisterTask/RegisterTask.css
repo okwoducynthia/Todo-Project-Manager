@@ -1,0 +1,90 @@
+
+.project-container {
+  background-color: rgba(16, 16, 65, 0.116);
+  padding: 60px;
+}
+.project-container div {
+  background-color: var(--white);
+  margin: auto;
+  width: 80%;
+}
+.project-sub-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+.project-sub-container form {
+  width: 95%;
+}
+.project-sub-container form h1 {
+  text-align: center;
+  color: var(--navy-blue);
+  font-family: var(--roboto-font);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.title input, .assigned input{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+
+}
+.description input{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.start-date label, .end-date label{
+  font-family: var(--roboto-font);
+}
+.start-date input, .end-date input {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons button {
+  padding: 15px 25px;
+  background-color: var(--navy-blue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.buttons button:hover {
+  background-color: rgba(9, 9, 85, 0.795);
+}
+
+
+
+/* ===MEDIA QUERY STARTS HERE=== */
+@media (max-width: 834px) {
+  .project-container div {
+    width: 100%;
+  }
+  .project-sub-container {
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-container {
+    height: 100vh;
+  }
+}

@@ -1,0 +1,93 @@
+.update-sub-container {
+  background-color: rgba(16, 16, 65, 0.116);
+  padding: 60px;
+  height: 100%;
+   background-color: var(--white);
+  margin: auto;
+  width: 70%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+.update-sub-container form {
+  width: 95%;
+}
+.update-sub-container form h1 {
+  text-align: center;
+  color: var(--navy-blue);
+  font-family: var(--roboto-font);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.title-update input, .assigned-update input{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+
+}
+.description-update input{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.update-start-date label, .update-end-date label, label {
+  font-family: var(--roboto-font);
+  color: var(--navy-blue);
+}
+.update-start-date input, .update-end-date input {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons button {
+  padding: 15px 25px;
+  background-color: var(--navy-blue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.buttons button:hover {
+  background-color: rgba(9, 9, 85, 0.795);
+}
+
+
+
+/* ===MEDIA QUERY STARTS HERE=== */
+@media (max-width: 834px) {
+  .update-sub-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .update-sub-container {
+    height: 100vh;
+  }
+  .update-sub-container form h1 {
+    font-size: 25px;
+  }
+  .buttons button {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  #Home-button {
+    display: none;
+  }
+
+}

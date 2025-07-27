@@ -1,0 +1,15 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ===LINKING EXTERNAL COLOUR=== */
+  --black-color: black;
+  --navy-blue: rgb(9, 9, 85);
+  --white: white;
+  /* ===LINKING EXTERNAL FONTS=== */
+  --roboto-font: "Roboto", sans-serif;
+}

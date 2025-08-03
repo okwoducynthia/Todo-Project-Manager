@@ -14,7 +14,7 @@ const FetchTask= () => {
   const handleDelete = async (id: any) => {
     try {
       await axios.delete(
-        `http://localhost:7000/Task/${id}`
+        `https://bankend-project.onrender.com/Task/${id}`
       );
       window.location.reload();
     } catch (error: any) {
@@ -26,7 +26,7 @@ const FetchTask= () => {
     const fetchPosts = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:7000/Task"
+          "https://bankend-project.onrender.com/Task"
         );
         console.log(data);
 

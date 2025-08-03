@@ -37,7 +37,7 @@ const UpdateAllTask: React.FC = () => {
     const fetchTask = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:7000/Task/${id}`
+          `https://bankend-project.onrender.com/Task/${id}`
         );
         setTaskData({
           title: data.title || "",

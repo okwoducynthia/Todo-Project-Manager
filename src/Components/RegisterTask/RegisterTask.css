@@ -80,4 +80,7 @@
     height: 95vh;
     width: 90%;
   }
+  .project-sub-container form h1 {
+    font-size: 30px;
+  }
 }

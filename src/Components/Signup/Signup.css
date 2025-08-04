@@ -44,4 +44,9 @@ input {
   border: none;
   font-weight: bold;
   margin-bottom: 50px;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+}
+.submit-button-container button:hover {
+  background-color: rgba(9, 9, 85, 0.795);
 }

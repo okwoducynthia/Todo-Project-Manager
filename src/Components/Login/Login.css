@@ -1,0 +1,23 @@
+.login-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container h1{
+  font-size: 40px;
+  font-family: var(--roboto-font);
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  font-family: var(--roboto-font);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+}

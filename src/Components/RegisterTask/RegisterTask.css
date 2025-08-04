@@ -41,7 +41,7 @@
 }
 .start-date input, .end-date input {
   margin-bottom: 16px;
-  width: 100%;
+  width: 95%;
   height: 50px;
   font-size: 16px;
 }

@@ -196,7 +196,6 @@ const UpdateAllTask: React.FC = () => {
           <div className="buttons">
             <Link to={"/allprojects"}><button style={{backgroundColor:"black"}}>Cancel</button></Link>
             
-            <Link to={"/"}><button id="Home-button"  style={{backgroundColor:"blue"}}>Home</button></Link>
 
             <button
             type="submit"

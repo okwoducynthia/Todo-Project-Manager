@@ -67,7 +67,9 @@ const FetchTask= () => {
             
           </div>
         ))}
-
+        <Link to={"/taskregister"}>
+        <button className="register-button">Register Task</button>
+        </Link>
       </div>
     </div>   
   );

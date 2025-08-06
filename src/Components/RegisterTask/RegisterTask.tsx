@@ -10,6 +10,7 @@ export default function RegisterTask() {
     const navigate = useNavigate();
   const [title, setTitle] = useState<string>("");
   const [assignedTo, setAssignedTo] = useState<string>("");
+  const [assignedBy, setAssignedBy] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [startDate, setStartDate] = useState<string>("");
   const [endDate, setEndDate] = useState<string>("");
@@ -28,6 +29,7 @@ export default function RegisterTask() {
     const data = {
       title: title,
       assignedTo: assignedTo,
+      assignedBy: assignedBy,
       description: description,
       startDate: startDate,
       endDate: endDate,
@@ -48,6 +50,7 @@ export default function RegisterTask() {
       setSuccessMsg("Task Registered");
       setTitle("");
       setAssignedTo("");
+      setAssignedBy("");
       setDescription("");
       setStartDate("");
 
@@ -76,7 +79,7 @@ export default function RegisterTask() {
           </div>
           {/* ==title section ends here== */}
 
-          {/* ==assigned section starts here== */}
+          {/* ==assignedTo section starts here== */}
           <div className="assigned">
             <input 
             type="text" 
@@ -85,7 +88,18 @@ export default function RegisterTask() {
             onChange={(e) => setAssignedTo(e.target.value)}
             />
           </div>
-          {/* ==assigned section ends here== */}
+          {/* ==assignedTo section ends here== */}
+
+          {/* ==assignedBy section starts here== */}
+          <div className="assigned">
+            <input 
+            type="text" 
+            placeholder="Assigned by"
+            value={assignedBy} 
+            onChange={(e) => setAssignedBy(e.target.value)}
+            />
+          </div>
+          {/* ==assignedBy section ends here== */}
 
           {/* ==description section starts here== */}
           <div className="description">

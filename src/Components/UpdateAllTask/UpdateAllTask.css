@@ -28,13 +28,14 @@
   height: 50px;
   margin-bottom: 10px;
   font-size: 16px;
-
+  padding: 10px;
 }
 .description-update input{
   width: 100%;
   height: 80px;
   margin-bottom: 10px;
   font-size: 16px;
+  padding: 10px;
 }
 .update-start-date label, .update-end-date label, label {
   font-family: var(--roboto-font);
@@ -45,6 +46,7 @@
   width: 100%;
   height: 50px;
   font-size: 16px;
+  padding: 10px;
 }
 .buttons {
   display: flex;

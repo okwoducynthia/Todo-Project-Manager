@@ -87,7 +87,7 @@ const UpdateAllTask: React.FC = () => {
       setLoading(true);
       setErrorMsg("");
       await axios.put(
-        `http://localhost:7000/Task/${id}`,
+        `https://bankend-project.onrender.com/Task/${id}`,
         TaskData
       );
       setSuccessMsg("Task updated successfully!");

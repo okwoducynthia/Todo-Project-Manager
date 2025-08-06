@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/taskregister' element={<RegisterPage/>}/>
+        <Route path='/' element={<RegisterPage/>}/>
         <Route path='/allprojects' element={<FetchTaskPage/>}/>
         <Route path='/update-task/:id' element={<UpdateTaskPage/>}/>
       </Routes>
